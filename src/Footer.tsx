@@ -5,7 +5,7 @@ import QuestionMarkIcon from '@mui/icons-material/QuestionMark';
 
 export const Footer = () =>{
     const preguntas = useQuestionStore(state => state.preguntas)
-
+    
     let correct = 0
     let incorrect = 0
     let unanswered = 0

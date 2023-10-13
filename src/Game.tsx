@@ -1,4 +1,4 @@
-import { Card, Icon, IconButton, List, ListItem, ListItemButton, ListItemText, Stack, Typography } from "@mui/material";
+import { Card,  IconButton, List, ListItem, ListItemButton, ListItemText, Stack, Typography } from "@mui/material";
 import { useQuestionStore } from "./store/questions";
 import { type Pregunta as TipoPregunta} from './types'
 import SyntaxHighlighter from 'react-syntax-highlighter'
