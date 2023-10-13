@@ -17,7 +17,7 @@ export const useQuestionStore = create<State>((set, get) => {
         preguntaActual: 0,
 
         fetchPreguntas: async (limit:number) => {
-            const res = await fetch('http://localhost:5173/data.json')
+            const res = await fetch('https://quizz-pi-coral.vercel.app/data.json')
             const json = await res.json()
             const preguntas = json.sort(() => Math.random() - 0.5).slice(0, limit)
             set({preguntas})
